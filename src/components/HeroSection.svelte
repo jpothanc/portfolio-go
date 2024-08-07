@@ -1,8 +1,9 @@
 <script>
-  import config from "../config/config.json";
   import jpothanc from "../assets/jpothanc.png";
   import { fade } from "svelte/transition";
   import { onMount } from "svelte";
+  import { HERO } from "../config/data";
+
   let visible = false;
   onMount(() => {
     visible = true;
@@ -16,7 +17,7 @@
   >
     <div class="flex justify-center items-center mx-auto p-2">
       <h1
-        class="text-4xl sm:text-5xl lg:text-6xl text-center tracking-wide  dark:text-neutral-300"
+        class="text-3xl lg:text-4xl text-center tracking-wide dark:text-neutral-300"
       >
         Hey there, I'm
         <span
@@ -28,11 +29,8 @@
       </h1>
     </div>
 
-    <div
-      transition:fade={{ duration: 2000 }}
-      class="flex justify-center gap-3 flex-wrap border-1 mx-auto mt-10 mr-40 ml-40"
-    >
-      <div class="flex text-right rounded-3xl self-center">
+    <div transition:fade={{ duration: 2000 }} class="text-container">
+      <div class="flex self-center border1">
         <span>
           <img
             src={jpothanc}
@@ -43,10 +41,24 @@
       </div>
 
       <div
-        class="flex-1 items-center border-1 self-center p-3  text-sm tracking-wider dark:text-neutral-500"
+        class="flex-1 items-center self-center p-3 text-sm tracking-wider dark:text-neutral-500 border-1"
       >
-        <span>{config.hero.description}</span>
+        <p>{HERO.description}</p>
+      </div>
+    </div>
+
+    <div transition:fade={{ duration: 3000 }} class="text-container">
+      <div
+        class="flex-1 items-center self-center p-3 text-sm tracking-wider dark:text-neutral-500 border-1"
+      >
+        <p>{HERO.motivation}</p>
       </div>
     </div>
   </div>
 {/if}
+
+<style>
+  .text-container {
+    @apply flex justify-center gap-2 flex-wrap mx-auto mt-5 mr-40 ml-40;
+  }
+</style>
