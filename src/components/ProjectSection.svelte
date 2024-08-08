@@ -1,12 +1,10 @@
-<div id="projects" class="mt-96">
-  <h1>Projects</h1>
+<script>
+  import Card from "./common/Card.svelte";
+  import SectionHeader from "./common/SectionHeader.svelte";
+</script>
 
-  <span>
-    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem molestiae
-    unde optio vitae aspernatur tenetur cupiditate, eum commodi officia
-    quibusdam asperiores quia ab, rerum illo autem dolor veniam? Nemo, nulla?
-    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt quia
-    molestias assumenda. Blanditiis magni illum omnis amet enim nobis vitae vel
-    cum mollitia corrupti id tempore, voluptas sit ea voluptates!
-  </span>
+<div id="projects" class="container flex flex-col justify-center mt-10">
+  <SectionHeader gradientText="Projects">
+    <Card />
+  </SectionHeader>
 </div>

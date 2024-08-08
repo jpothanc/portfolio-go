@@ -3,6 +3,7 @@
   import logo from "../assets/svelte.svg";
   import { Moon } from "lucide-svelte";
   import { onMount } from "svelte";
+  import { NavItems } from "../config/data";
 
   const scrollTo = (event: any) => {
     const target = document.querySelector(event.currentTarget.hash);
@@ -48,7 +49,7 @@
     <!-- menu items -->
     <div class="flex-1 self-center border1">
       <ul class="flex justify-center border1">
-        {#each config.navbar as item, index}
+        {#each NavItems as item, index}
           <li class="p-2" data-index={index}>
             <a href={item.url} on:click={scrollTo}>{item.name}</a>
           </li>

@@ -2,24 +2,28 @@
   import Icon from "@iconify/svelte";
   export let icon = "vscode-icons:file-type-svelte";
   export let subtitle = "";
-  export let color = "text-green-500";
 </script>
 
 <div
-  class="flex flex-col justify-center items-center mt-5 ml-40 mr-40
-  border border-zinc-800 rounded-lg shadow-md
-   dark:{color}"
+  class="flex flex-col justify-center items-center mt-10 ml-40 mr-40
+   border-zinc-800 rounded-lg shadow-md dark:shadow-slate-800 dark:shadow-sm"
 >
   <div
-    class="container flex justify-center items-center p-2 gap-1 mt-0
+    class="container flex justify-start px-2 items-center gap-1 mt-0
      bg-white
-    dark:bg-zinc-900 rounded-lg shadow-sm border-transparent
-  hover:brightness-110 transition:all duration-300 ease-in-out"
+    dark:bg-transparent rounded-lg shadow-sm border-transparent
+  hover:brightness-110 transition:all duration-300 ease-in-out
+  dark:text-orange-600
+  "
   >
-    <span>
+    <span class="position-absolute top-0 left-0 -translate-y-1/2">
       <Icon {icon} height="24" width="24" />
     </span>
-    <span>{subtitle}</span>
+    <span class="position-absolute top-0 left-0 -translate-y-1/2"
+      >{subtitle}</span
+    >
   </div>
-  <slot></slot>
+  <div class="flex gap-2 flex-wrap m-5">
+    <slot></slot>
+  </div>
 </div>

@@ -3,7 +3,7 @@
   export let gradientText = "";
 </script>
 
-<div class="flex flex-col justify-center items-center mx-auto p-2 ">
+<div class="flex flex-col justify-center items-center mx-auto p-2">
   <h1
     class="text-3xl lg:text-4xl text-center tracking-wide dark:text-neutral-300"
   >

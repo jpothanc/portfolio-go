@@ -13,6 +13,7 @@
 
 {#if visible}
   <div
+    id="about"
     transition:fade={{ duration: 1000 }}
     class="container flex flex-col justify-center"
   >

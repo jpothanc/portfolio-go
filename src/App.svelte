@@ -6,6 +6,7 @@
   import ProjectsSection from "./components/ProjectSection.svelte";
   import SkillsSection from "./components/SkillsSection.svelte";
   import MotoSection from "./components/MotoSection.svelte";
+  import Articles from "./components/Articles.svelte";
   
 </script>
 
@@ -16,6 +17,7 @@
   <SkillsSection />
   <ProjectsSection />
   <ExperianceSection />
+  <Articles />
 </div>
 
 <style lang="postcss">

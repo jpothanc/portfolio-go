@@ -1,11 +1,23 @@
-<div class="mt-96">
-  <h1>Experiance</h1>
+<script>
+  import SectionSubHeader from "./common/SectionSubHeader.svelte";
+  import SectionHeader from "./common/SectionHeader.svelte";
+  import { Experiance } from "./../config/data";
+</script>
+
+<div
+  id="experiance"
+  class="container flex flex-col justify-center mt-10 dark:text-neutral-500"
+>
+  <SectionHeader gradientText="Work Experiance">
+    {#each Experiance as experiance}
+      <SectionSubHeader
+        icon={experiance.description}
+        subtitle={experiance.name}
+      >
+        <p>
+          {experiance.description}
+        </p>
+      </SectionSubHeader>
+    {/each}
+  </SectionHeader>
 </div>
-<span>
-  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem molestiae
-  unde optio vitae aspernatur tenetur cupiditate, eum commodi officia quibusdam
-  asperiores quia ab, rerum illo autem dolor veniam? Nemo, nulla? Lorem ipsum,
-  dolor sit amet consectetur adipisicing elit. Sunt quia molestias assumenda.
-  Blanditiis magni illum omnis amet enim nobis vitae vel cum mollitia corrupti
-  id tempore, voluptas sit ea voluptates!
-</span>
