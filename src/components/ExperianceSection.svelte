@@ -8,6 +8,8 @@
   id="experiance"
   class="container flex flex-col justify-center mt-10 dark:text-neutral-500"
 >
+
+
   <SectionHeader gradientText="Work Experiance">
     {#each Experiance as experiance}
       <SectionSubHeader

@@ -35,11 +35,12 @@ export const Hero = {
   image: "I'm a full-stack developer",
 };
 
-export const Icons = {
+export const AppIcons = {
   technology: "streamline:ai-technology-spark",
   practices: "fa6-solid:hands",
   achievements: "foundation:social-skillshare",
   personality: "mdi:person-star",
+  git: "logos:git",
 };
 
 export const DevelopmentPractices = [
@@ -124,36 +125,6 @@ export const Achievements = [
   {
     icon: "",
     name: "Hackathon Winner",
-    Comment: "",
-  },
-  {
-    icon: "",
-    name: "Git",
-    Comment: "",
-  },
-  {
-    icon: "",
-    name: "Nunit",
-    Comment: "",
-  },
-  {
-    icon: "",
-    name: "xUnit",
-    Comment: "",
-  },
-  {
-    icon: "",
-    name: "SpecFlow",
-    Comment: "",
-  },
-  {
-    icon: "",
-    name: "Junit",
-    Comment: "",
-  },
-  {
-    icon: "",
-    name: "Cucumber",
     Comment: "",
   },
 ];
@@ -426,5 +397,118 @@ export const Articles = [
     name: "Svelt, Felt Better?",
     description: "A attempt to promote Svelte, a modern web framework.",
     url: "https://medium.com/@kaljessy/svelt-felt-better-ff7ce0f81977",
+  },
+];
+
+export const PersonalProjects = [
+  {
+    name: "data store",
+    link: "https://data-store.azurewebsites.net/api/v1/data/query?catalogue=Trading&catalogueItem=Users",
+    description:
+      "A robust read-through caching app designed to cache configured queries, accelerating performance by swiftly accessing frequently requested data.",
+    readme: "https://api.github.com/repos/jpothanc/datastore/readme",
+    repo: "https://github.com/jpothanc/datastore",
+    technology:
+      "https://skillicons.dev/icons?i=java,spring,postgres,azure&perline=5",
+  },
+  {
+    name: "hero",
+    link: "https://hero-two-gilt.vercel.app/",
+    description:
+      "Monitoring UI for production support. Delivers real-time insights on microservices, databases. Seamlessly integrates with Java-based healthcheck service via WebSockets for instant updates.",
+    readme: "https://api.github.com/repos/jpothanc/hero/readme",
+    repo: "https://github.com/jpothanc/hero",
+    technology: "https://skillicons.dev/icons?i=react,vscode,vercel&perline=10",
+  },
+  {
+    name: "dynamo",
+    link: "https://dynamo-blue.vercel.app/",
+    description:
+      "Dynamo is a web application that allows you to configure JSON endpoints and visualize the data in a grid format for easy reading and support.",
+    readme: "https://api.github.com/repos/jpothanc/dynamo/readme",
+    repo: "https://github.com/jpothanc/dynamo",
+    technology: "https://skillicons.dev/icons?i=react,vscode,vercel&perline=10",
+  },
+  {
+    name: "healthcheck",
+    link: "https://healthcheck-ib.azurewebsites.net/api/v1/health/check",
+    description:
+      "Service which monitors microservices, databases with regular pings, ensuring ongoing health assessment. Offers real-time updates via WebSockets to subscribed clients. Also provides REST APIs for detailed health check info.",
+    readme: "https://api.github.com/repos/jpothanc/healthcheck/readme",
+    repo: "https://github.com/jpothanc/healthcheck",
+    technology:
+      "https://skillicons.dev/icons?i=java,spring,postgres,azure&perline=5",
+  },
+  {
+    name: "webq",
+    link: "https://www.nuget.org/packages/WebQ/",
+    description:
+      "Lightweight class library aiding HTTP queries, caching results locally for resilience. Configure cached data duration, ensuring app resilience during REST endpoint downtime.",
+    readme: "https://api.github.com/repos/jpothanc/webq/readme",
+    repo: "https://github.com/jpothanc/webq",
+    technology: "https://skillicons.dev/icons?i=dotnet,visualstudio&perline=10",
+  },
+  {
+    name: "auth me",
+    link: "",
+    description:
+      "This .NET Standard class library which offers HTTP Basic Authentication capabilities. Features seamless integration into .NET applications, credential validation, and compatibility across various .NET projects.",
+    readme: "https://api.github.com/repos/jpothanc/authme/readme",
+    repo: "https://github.com/jpothanc/authme",
+    technology: "https://skillicons.dev/icons?i=dotnet,visualstudio&perline=10",
+  },
+  {
+    name: "simple skin",
+    link: "https://www.nuget.org/packages/SimpleSkin",
+    description:
+      "A lightweight class library enabling swift integration of custom skins into Windows Forms apps. Easily revamp your app's appearance without extensive control modification, offering a fresh, unique look effortlessly.",
+    readme: "https://api.github.com/repos/jpothanc/simpleskin/readme",
+    repo: "https://github.com/jpothanc/simpleskin",
+    technology: "https://skillicons.dev/icons?i=dotnet,visualstudio&perline=10",
+  },
+  {
+    name: "react-jp-ui",
+    link: "https://www.npmjs.com/package/react-jp-ui",
+    description:
+      "In the world of React projects, I wanted to make my life easier by reusing components. So, I took the leap to build my own library of common React components using Vite and shared it via npm.",
+    readme: "https://api.github.com/repos/jpothanc/react-jp-ui/readme",
+    repo: "https://github.com/jpothanc/react-jp-ui",
+    technology: "https://skillicons.dev/icons?i=react,vscode&perline=10",
+  },
+  {
+    name: "pulse",
+    link: "",
+    description:
+      "A simple tool for testing WebSocket connections. It provides an easy-to-use interface to send and receive WebSocket messages, making it convenient for developers and testers to validate WebSocket functionality",
+    readme: "https://api.github.com/repos/jpothanc/pulse/readme",
+    repo: "https://github.com/jpothanc/pulse",
+    technology: "https://skillicons.dev/icons?i=react,vscode&perline=10",
+  },
+  {
+    name: "equity-store",
+    link: "",
+    description:
+      "Eager to understand the essence of Python and how it contrasts with the familiar territories of .Net and Java, I embarked on a project that would not only allow me to peek into Python but also to apply it in a real-world scenario. ",
+    readme: "https://api.github.com/repos/jpothanc/equity-store/readme",
+    repo: "https://github.com/jpothanc/equity-store/tree/main",
+    technology: "https://skillicons.dev/icons?i=python,pycharm&perline=10",
+  },
+  {
+    name: "devnotes",
+    link: "https://devnotes-blond.vercel.app/",
+    description:
+      "devnotes remember everything so you don’t have to. A simple notes look up app which can read you git markdown documents.",
+    readme: "https://api.github.com/repos/jpothanc/devnotes/readme",
+    repo: "https://github.com/jpothanc/devnotes/tree/main",
+    technology: "https://skillicons.dev/icons?i=react,vscode&perline=10",
+  },
+  {
+    name: "omnijp",
+    link: "",
+    description:
+      "OmniJP is a Python library that provides tools for common tasks in software development.It now supports features for caching database results to disk and making HTTP requests with caching support.",
+    readme: "https://api.github.com/repos/jpothanc/omnijp/readme",
+    repo: "https://github.com/jpothanc/omnijp/tree/main",
+    technology: "https://skillicons.dev/icons?i=python,pycharm&perline=10",
   },
 ];

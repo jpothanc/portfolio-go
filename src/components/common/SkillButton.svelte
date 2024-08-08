@@ -12,7 +12,7 @@
 </script>
 
 <div
-  class="flex gap-2 items-center p-1 pl-3 pr-3 rounded-xl
+  class="flex gap-2 items-center p- pl-3 pr-3 rounded-xl
 bg-slate-0 border-transparent border
 
 hover:border-orange-500 transition:all duration-300 ease-in-out

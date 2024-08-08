@@ -7,11 +7,12 @@
   import SkillsSection from "./components/SkillsSection.svelte";
   import MotoSection from "./components/MotoSection.svelte";
   import Articles from "./components/Articles.svelte";
-  
 </script>
 
 <NavBar />
-<div class="max-w-7xl mx-auto pt-20 px-6">
+<div
+  class="max-w-7xl mx-auto pt-20 px-6   dark:bg-gradient-to-r from-gray-950 to-zinc-950 "
+>
   <HeroSection />
   <!-- <MotoSection /> -->
   <SkillsSection />
@@ -26,7 +27,7 @@
     color: black;
   }
   :global(html.dark) {
-    background-color: theme("colors.gray.950"); /* Dark mode background */
+    background-color: theme("colors.black"); /* Dark mode background */
     color: white;
   }
 </style>

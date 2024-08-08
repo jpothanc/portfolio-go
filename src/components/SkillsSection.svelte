@@ -2,7 +2,7 @@
   import Icon from "@iconify/svelte";
   import {
     Skills,
-    Icons,
+    AppIcons,
     DevelopmentPractices,
     Achievements,
     Personality,
@@ -14,7 +14,7 @@
 
 <div id="skills" class="container flex flex-col justify-center mt-10">
   <SectionHeader gradientText="Skills">
-    <SectionSubHeader icon={Icons.technology} subtitle="Technology">
+    <SectionSubHeader icon={AppIcons.technology} subtitle="Technology">
       {#each Skills as skill}
         {#if skill.icon}
           <SkillButton icon={skill.icon} text={skill.name} />
@@ -23,7 +23,7 @@
     </SectionSubHeader>
 
     <SectionSubHeader
-      icon={Icons.practices}
+      icon={AppIcons.practices}
       subtitle="Development Practices & Testing"
     >
       {#each DevelopmentPractices as skill}
@@ -34,7 +34,7 @@
     </SectionSubHeader>
 
     <SectionSubHeader
-      icon={Icons.achievements}
+      icon={AppIcons.achievements}
       subtitle="Skills and Achievements"
     >
       {#each Achievements as skill}
@@ -44,7 +44,7 @@
       {/each}
     </SectionSubHeader>
 
-    <SectionSubHeader icon={Icons.personality} subtitle="Personality">
+    <SectionSubHeader icon={AppIcons.personality} subtitle="Personality">
       {#each Personality as skill}
         <div class="flex">
           <SkillButton icon={skill.icon} text={skill.name} />
