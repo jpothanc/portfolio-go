@@ -1,6 +1,6 @@
 import Icon from "@iconify/svelte";
 
-export const HERO = {
+export const Hero = {
   description:
     "For more than two decades, I've been with a leading investment bank, specializing in the tech side of Equities Front Office Solutions. You'll often find me brainstorming, designing," +
     "and fine-tuning tech solutions that are tailor-made to tackle the unique challenges in the equities front office scene. I'm all about crafting strategies that not only boost the bottom line but also bring out the best in teams. Whether it's streamlining trading processes, smoothing out the kinks, or amping up the client experience, I'm constantly on the lookout for ways to make tech work smarter in the equities world.",
@@ -9,7 +9,130 @@ export const HERO = {
   image: "I'm a full-stack developer",
 };
 
-export const SKILLS = [
+export const Icons = {
+  technology: "streamline:ai-technology-spark",
+  practices: "fa6-solid:hands",
+  achievements: "foundation:social-skillshare",
+  personality :"mdi:person-star"
+};
+
+export const DevelopmentPractices = [
+  {
+    icon: "",
+    name: "DevOps",
+    Comment: "",
+  },
+  {
+    icon: "",
+    name: "Agile-Scrum",
+    Comment: "",
+  },
+  {
+    icon: "",
+    name: "TDD/BDD",
+    Comment: "",
+  },
+  {
+    icon: "",
+    name: "CI/CD",
+    Comment: "",
+  },
+  {
+    icon: "",
+    name: "Jenkins",
+    Comment: "",
+  },
+  {
+    icon: "",
+    name: "Git",
+    Comment: "",
+  },
+  {
+    icon: "",
+    name: "Nunit",
+    Comment: "",
+  },
+  {
+    icon: "",
+    name: "xUnit",
+    Comment: "",
+  },
+  {
+    icon: "",
+    name: "SpecFlow",
+    Comment: "",
+  },
+  {
+    icon: "",
+    name: "Junit",
+    Comment: "",
+  },
+  {
+    icon: "",
+    name: "Cucumber",
+    Comment: "",
+  },
+];
+
+export const Achievements = [
+  {
+    icon: "",
+    name: "Investment Bank",
+    Comment: "",
+  },
+  {
+    icon: "",
+    name: "Equities Front Office Solutions",
+    Comment: "",
+  },
+  {
+    icon: "",
+    name: "Order Management Systems",
+    Comment: "",
+  },
+  {
+    icon: "",
+    name: "Consistant Top Performer",
+    Comment: "",
+  },
+  {
+    icon: "",
+    name: "Hackathon Winner",
+    Comment: "",
+  },
+  {
+    icon: "",
+    name: "Git",
+    Comment: "",
+  },
+  {
+    icon: "",
+    name: "Nunit",
+    Comment: "",
+  },
+  {
+    icon: "",
+    name: "xUnit",
+    Comment: "",
+  },
+  {
+    icon: "",
+    name: "SpecFlow",
+    Comment: "",
+  },
+  {
+    icon: "",
+    name: "Junit",
+    Comment: "",
+  },
+  {
+    icon: "",
+    name: "Cucumber",
+    Comment: "",
+  },
+];
+
+export const Skills = [
   {
     icon: "logos:c-sharp",
     name: "C#",
@@ -95,5 +218,59 @@ export const SKILLS = [
     icon: "devicon:redis",
     name: "Redis",
     experience: "2+ years",
+  },
+];
+export const Personality = [
+  {
+    icon: "",
+    name: "#pragmatic",
+  },
+  {
+    icon: "",
+    name: "#passionate",
+  },
+  {
+    icon: "",
+    name: "#accountable",
+  },
+  {
+    icon: "",
+    name: "#collaborative",
+  },
+  {
+    icon: "",
+    name: "#selfless",
+  },
+  {
+    icon: "",
+    name: "self-driven",
+  },
+  {
+    icon: "",
+    name: "#leader",
+  },
+  {
+    icon: "",
+    name: "#trustworthy",
+  },
+  {
+    icon: "",
+    name: "#empathtic",
+    Comment: "",
+  },
+  {
+    icon: "",
+    name: "#innovative",
+    Comment: "",
+  },
+  {
+    icon: "",
+    name: "#respectful",
+    Comment: "",
+  },
+  {
+    icon: "",
+    name: "#adaptable",
+    Comment: "",
   },
 ];
