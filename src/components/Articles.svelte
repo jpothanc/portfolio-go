@@ -10,7 +10,7 @@
   class="container flex flex-col justify-center mt-10 dark:text-neutral-500"
 >
   <SectionHeader gradientText="articles" icon={AppIcons.articleSection}>
-    <div class="flex flex-wrap justify-center items-center gap-2 mt-10">
+    <div class="flex flex-wrap justify-center items-center gap-2 mt-10 ml-40 mr-40">
       {#each Articles as article}
         <ArticleCard
           title={article.name}

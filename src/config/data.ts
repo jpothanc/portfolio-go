@@ -9,12 +9,12 @@ export const NavItems = [
     url: "#skills",
   },
   {
-    name: "Projects",
-    url: "#projects",
-  },
-  {
     name: "Experiance",
     url: "#experiance",
+  },
+  {
+    name: "Projects",
+    url: "#projects",
   },
   {
     name: "Articles",
@@ -44,7 +44,7 @@ export const AppIcons = {
   skillSection: "iconoir:developer",
   projectSection: "clarity:applications-solid-badged",
   articleSection: "heroicons:pencil-square-solid",
-  experianceSection:"mdi:partnership"
+  experianceSection: "mdi:partnership",
 };
 
 export const DevelopmentPractices = [

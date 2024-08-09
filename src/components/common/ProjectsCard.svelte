@@ -10,7 +10,7 @@
     text-md dark:text-neutral-400 text-tracking-wider hover:scale-105 transition:all duration-300 ease-in-out
     hover:border-orange-500"
   >
-    <div class="flex justify-between p-2 text-lg mt-2 dark:text-blue-400">
+    <div class="flex justify-between p-2 text-lg text-green-800 mt-2 dark:text-blue-400">
       <span>{project.name}</span>
       <div class="flex gap-2">
         <span class="dark:text-green-600"
@@ -34,9 +34,9 @@
 
     <span class="flex-1 text-xs mt-5">{project.description}</span>
     <span
-      class="flex justify-items-center items-center text-xs mt-2 mb-2 p-2 rounded-lg bg-slate-200 dark:bg-zinc-800"
+      class="flex justify-items-center items-center text-xs mt-2 mb-2 p-2 rounded-lg bg-slate-100 dark:bg-slate-900"
     >
-      <img src={project.technology} class="h-5" alt="tech stack" />
+      <img src={project.technology} class="h-7" alt="tech stack" />
     </span>
   </div>
 </div>

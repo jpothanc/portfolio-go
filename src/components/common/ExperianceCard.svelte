@@ -18,7 +18,7 @@
     class="container flex justify-between px-2 items-center gap-1 mt-0
      bg-white
     dark:bg-transparent rounded-lg shadow-sm border-transparent
-  hover:brightness-110 transition:all duration-300 ease-in-out
+  hover:brightness-110 transition:all duration-300 ease-in-out text-green-800
   dark:text-blue-400
   "
   >
@@ -42,7 +42,7 @@
       </div>
     </div>
   </div>
-  <div class="flex self-start flex-wrap m-5">
+  <div class="flex self-start flex-wrap p-3">
     <slot></slot>
   </div>
 </div>

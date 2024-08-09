@@ -16,7 +16,7 @@
     <span>
       {normalText}
       <span
-        class="bg-gradient-to-r from-orange-500 to-red-800 text-transparent bg-clip-text"
+        class="bg-gradient-to-r from-green-700 to-red-500 dark:from-orange-500 dark:to-red-800 text-transparent bg-clip-text"
       >
         {" "}
         {gradientText}

@@ -36,12 +36,12 @@
 </script>
 
 <nav
-  class="sticky top-0 z-50 backdrop-blur-lg border-b border-r border-l border-neutral-700/80
+  class="sticky top-0 z-50 backdrop-blur-lg border-b border-green-700/80 dark:border-orange-700/80
    bg-transparent max-w-7xl mx-auto h-24 flex items-center"
 >
   <div class="container flex gap-2 mx-auto sm:text-sm  border1">
     <!-- logo -->
-    <div class="flex items-center flex-shrink-0 border1">
+    <div class="flex items-center flex-shrink-0 px-10 border1">
       <img class="flex p-1" src={logo} alt="logo" />
     </div>
 

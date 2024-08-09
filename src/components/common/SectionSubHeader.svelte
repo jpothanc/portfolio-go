@@ -12,14 +12,14 @@
     class="container flex justify-start px-2 items-center gap-1 mt-0
      bg-white
     dark:bg-transparent rounded-lg shadow-sm border-transparent
-  hover:brightness-110 transition:all duration-300 ease-in-out
+  hover:brightness-110 transition:all duration-300 ease-in-out text-green-800
   dark:text-blue-400 
   "
   >
     <span class="">
       <Icon {icon} height="24" width="24" />
     </span>
-    <span class=""
+    <span class="p-2"
       >{subtitle}</span
     >
   </div>
