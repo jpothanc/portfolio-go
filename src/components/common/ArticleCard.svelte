@@ -3,7 +3,7 @@
   export let title = "";
   export let url = "";
   export let description = "";
-  export let technology = "";
+  export let repo = "";
 </script>
 
 <div class="flex flex-wrap justify-center items-center">
@@ -13,29 +13,25 @@
     hover:border-orange-500"
   >
     <div class="flex justify-between p-2 text-sm mt-2 dark:text-blue-400">
+      <Icon icon="arcticons:nextcloudnotes" width="24" height="24" />
       <span>{title}</span>
-      <div class="flex gap-2">
-        <span class="dark:text-green-600">
-          <a href={url} target="_blank" rel="noopener noreferrer">
-            <Icon icon="fluent-mdl2:git-hub-logo" width="24" height="24" />
-          </a>
-        </span>
-        <span class="dark:text-yellow-600">
-          <a href={url} target="_blank" rel="noopener noreferrer">
-            <Icon icon="mingcute:medium-line" width="24" height="24" />
-          </a>
-        </span>
-      </div>
     </div>
     <hr class="border-t-2 border-gray-800" />
 
     <span class="flex-1 text-xs mt-5">{description}</span>
-    {#if technology}
-      <span
-        class="flex justify-items-center items-center text-xs mt-2 mb-2 p-2 rounded-lg bg-slate-200 dark:bg-zinc-800"
-      >
-        <img src={technology} class="h-5" alt="tech stack" />
+    <div class="flex gap-2 justify-end px-2 pb-2">
+      {#if repo}
+        <span class="dark:text-green-600">
+          <a href={repo} target="_blank" rel="noopener noreferrer">
+            <Icon icon="fluent-mdl2:git-hub-logo" width="24" height="24" />
+          </a>
+        </span>
+      {/if}
+      <span class="dark:text-yellow-600">
+        <a href={url} target="_blank" rel="noopener noreferrer">
+          <Icon icon="mingcute:medium-line" width="24" height="24" />
+        </a>
       </span>
-    {/if}
+    </div>
   </div>
 </div>

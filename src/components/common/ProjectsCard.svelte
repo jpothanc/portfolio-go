@@ -13,8 +13,8 @@
     <div class="flex justify-between p-2 text-lg mt-2 dark:text-blue-400">
       <span>{project.name}</span>
       <div class="flex gap-2">
-        <span class="dark:text-green-600">
-          <a href={project.repo} target="_blank" rel="noopener noreferrer">
+        <span class="dark:text-green-600"
+          ><a href={project.repo} target="_blank" rel="noopener noreferrer">
             <Icon icon="fluent-mdl2:git-hub-logo" width="24" height="24" />
           </a>
         </span>

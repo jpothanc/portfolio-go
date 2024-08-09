@@ -14,7 +14,9 @@
 </script>
 
 <div id="skills" class="container flex justify-center mt-10">
-  <SectionHeader gradientText="Skills">
+  <SectionHeader gradientText="skills" icon={AppIcons.skillSection}>
+
+    
     <!-- <div class="">
       <video class="object-fill rounded-[50%] size-[200px]" autoplay loop muted>
         <source src={video} type="video/mp4" />

@@ -1,19 +1,28 @@
 <script>
+  import Icon from "@iconify/svelte";
+  export let icon = "vscode-icons:file-type-svelte";
   export let normalText = "";
   export let gradientText = "";
 </script>
 
 <div class="flex flex-col justify-center items-center mx-auto p-2">
   <h1
-    class="text-3xl lg:text-4xl text-center tracking-wide dark:text-neutral-300"
+    class="flex align-middle justify-center gap-3 text-3xl lg:text-3xl text-center tracking-wide w-full p-2
+    dark:text-neutral-300"
   >
-    {normalText}
-    <span
-      class="bg-gradient-to-r from-orange-500 to-red-800 text-transparent bg-clip-text"
-    >
-      {" "}
-      {gradientText}
+    <span>
+      <Icon {icon} width="32" height="32" />
+    </span>
+    <span>
+      {normalText}
+      <span
+        class="bg-gradient-to-r from-orange-500 to-red-800 text-transparent bg-clip-text"
+      >
+        {" "}
+        {gradientText}
+      </span>
     </span>
   </h1>
+
   <slot></slot>
 </div>

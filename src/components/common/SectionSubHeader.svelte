@@ -13,13 +13,13 @@
      bg-white
     dark:bg-transparent rounded-lg shadow-sm border-transparent
   hover:brightness-110 transition:all duration-300 ease-in-out
-  dark:text-blue-400
+  dark:text-blue-400 
   "
   >
-    <span class="position-absolute top-0 left-0 -translate-y-1/2">
+    <span class="">
       <Icon {icon} height="24" width="24" />
     </span>
-    <span class="position-absolute top-0 left-0 -translate-y-1/2"
+    <span class=""
       >{subtitle}</span
     >
   </div>

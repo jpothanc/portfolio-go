@@ -41,6 +41,10 @@ export const AppIcons = {
   achievements: "foundation:social-skillshare",
   personality: "mdi:person-star",
   git: "logos:git",
+  skillSection: "iconoir:developer",
+  projectSection: "clarity:applications-solid-badged",
+  articleSection: "heroicons:pencil-square-solid",
+  experianceSection:"mdi:partnership"
 };
 
 export const DevelopmentPractices = [
@@ -359,26 +363,31 @@ export const Articles = [
     name: "React-Inversify",
     description: "Dependency injection in React using inversify.",
     url: "https://medium.com/@kaljessy/react-dependency-injection-using-inversify-b4e1d63abc72",
+    repo: "https://github.com/jpothanc/react-di-using-inversify?source=post_page-----b4e1d63abc72--------------------------------",
   },
   {
     name: "Reactive React",
     description: "How to use Reactive Extensions in React.",
     url: "https://medium.com/@kaljessy/react-state-management-using-rxjs-58a4d523d611",
+    repo: "",
   },
   {
     name: "K6 Load Testing",
     description: "Performance Testing using Grafana k6",
     url: "https://dev.to/jpothanc/performance-testing-using-grafana-k6-3pg9",
+    repo: "",
   },
   {
     name: "React lib to npm",
     description: "Publish React library to npm.",
     url: "https://medium.com/@kaljessy/publish-your-react-library-to-npm-using-vite-136dc81e368d",
+    repo: "",
   },
   {
     name: "Python Libraries",
     description: "Creating and Uploading Python Libraries",
     url: "https://medium.com/@kaljessy/building-and-sharing-a-guide-to-creating-and-uploading-python-libraries-56998a001a2c",
+    repo: "",
   },
   {
     name: "Python Microservice",
