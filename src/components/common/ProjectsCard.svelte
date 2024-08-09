@@ -12,7 +12,7 @@
      dark:text-neutral-400 text-tracking-wider"
   >
     <div
-      class="flex justify-between p-2 text-lg mt-2 rounded-lg dark:text-blue-400 dark:bg-transparent "
+      class="flex justify-between p-2 bg-theme-secondary text-lg mt-2 rounded-lg dark:text-blue-400 dark:bg-transparent "
     >
       <span>{project.name}</span>
       <div class="flex gap-2">
@@ -33,10 +33,10 @@
         </span>
       </div>
     </div>
-    <hr class="m-1 border-t-2 border-gray-800" />
+    <hr class="m-1 border-t-2 dark:border-gray-800" />
 
     <span
-      class="flex-1 text-xs mt-2 bg-theme-secondary p-2 rounded-lg dark:bg-transparent"
+      class="flex-1 text-xs mt-2  p-2 rounded-lg dark:bg-transparent"
       >{project.description}</span
     >
     <span
