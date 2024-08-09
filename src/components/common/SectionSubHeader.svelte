@@ -5,7 +5,7 @@
 </script>
 
 <div
-  class="flex flex-col justify-center items-center mt-10 ml-40 mr-40
+  class="flex flex-col justify-center items-center mt-10
    border-zinc-800 rounded-lg shadow-md dark:shadow-slate-800 dark:shadow-sm"
 >
   <div
@@ -13,7 +13,7 @@
      bg-white
     dark:bg-transparent rounded-lg shadow-sm border-transparent
   hover:brightness-110 transition:all duration-300 ease-in-out
-  dark:text-orange-600
+  dark:text-blue-400
   "
   >
     <span class="position-absolute top-0 left-0 -translate-y-1/2">

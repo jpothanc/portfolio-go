@@ -1,5 +1,4 @@
 <script lang="ts">
-  import config from "../config/config.json";
   import logo from "../assets/svelte.svg";
   import { Moon } from "lucide-svelte";
   import { onMount } from "svelte";

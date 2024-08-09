@@ -1,5 +1,5 @@
 <script>
-  import config from "../config/config.json";
+  
   import jpothanc from "../assets/moto.png";
   import { fade } from "svelte/transition";
   import { onMount } from "svelte";

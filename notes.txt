@@ -9,3 +9,5 @@ npx tailwindcss init -p
 npm install lucide-svelte
 
 https://icon-sets.iconify.design/?query=python
+
+https://icon-sets.iconify.design/

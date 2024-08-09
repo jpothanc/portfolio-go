@@ -1,6 +1,6 @@
 <script>
   import { PersonalProjects } from "../config/data";
-  import Card from "./common/Card.svelte";
+  import Card from "./common/ProjectsCard.svelte";
   import SectionHeader from "./common/SectionHeader.svelte";
 </script>
 
