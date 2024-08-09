@@ -27,7 +27,8 @@
         </span>
       </div>
     </div>
-    <hr />
+    <hr class="border-t-2 border-gray-800" />
+
     <span class="flex-1 text-xs mt-5">{description}</span>
     {#if technology}
       <span

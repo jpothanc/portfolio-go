@@ -30,7 +30,8 @@
         </span>
       </div>
     </div>
-    <hr />
+    <hr class="border-t-2 border-gray-800" />
+
     <span class="flex-1 text-xs mt-5">{project.description}</span>
     <span
       class="flex justify-items-center items-center text-xs mt-2 mb-2 p-2 rounded-lg bg-slate-200 dark:bg-zinc-800"

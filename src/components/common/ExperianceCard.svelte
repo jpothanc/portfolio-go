@@ -10,17 +10,16 @@
 
 <div
   class="flex flex-col justify-center items-center mt-10
-   1border-zinc-800 rounded-lg shadow-md dark:shadow-slate-800 dark:shadow-sm 
+   1border-zinc-800 rounded-lg shadow-md dark:shadow-slate-800 dark:shadow-sm
    min-w-full
    "
-   
 >
   <div
     class="container flex justify-between px-2 items-center gap-1 mt-0
      bg-white
     dark:bg-transparent rounded-lg shadow-sm border-transparent
   hover:brightness-110 transition:all duration-300 ease-in-out
-  dark:text-blue-400  
+  dark:text-blue-400
   "
   >
     <div class="flex pl-2 pt-2">
@@ -28,14 +27,14 @@
     </div>
     <div class="flex gap-4 pr-10">
       <div class="flex gap-2">
-        <span class="text-green-600">
+        <span class="dark:text-green-600">
           <Icon icon={iconCompany} height="24" width="24" />
         </span>
 
         <span class="">{company}</span>
       </div>
       <div class="flex gap-2">
-        <span class="text-yellow-600">
+        <span class="dark:text-yellow-600">
           <Icon icon={iconTimeline} height="24" width="24" />
         </span>
 
@@ -43,7 +42,7 @@
       </div>
     </div>
   </div>
-  <div class="flex gap-2 flex-wrap m-5">
+  <div class="flex self-start flex-wrap m-5">
     <slot></slot>
   </div>
 </div>
