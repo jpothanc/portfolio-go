@@ -6,7 +6,7 @@
 
 <div id="projects" class="container flex flex-col justify-center mt-10">
   <SectionHeader gradientText="projects" icon={AppIcons.projectSection}>
-    <div class="flex flex-wrap gap-3 justify-center items-center mt-10 mr-40 ml-40">
+    <div class="flex flex-wrap gap-3 justify-center items-center mt-10">
       {#each PersonalProjects as project}
         <Card {project} />
       {/each}

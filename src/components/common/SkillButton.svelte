@@ -13,7 +13,7 @@
 
 <div
   class="flex gap-2 items-center p- pl-3 pr-3 rounded-xl
-bg-slate-0 border-transparent border
+bg-slate-0 border-transparent 
 
 hover:border-orange-500 transition:all duration-300 ease-in-out
 font-semibold text-neutral-700

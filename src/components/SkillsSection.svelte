@@ -23,7 +23,7 @@
       </video>
     </div> -->
 
-    <div class="flex ml-40 mr-40">
+    <div class="flex">
       <SectionSubHeader icon={AppIcons.technology} subtitle="Technology">
         {#each Skills as skill}
           {#if skill.icon}
@@ -33,7 +33,7 @@
       </SectionSubHeader>
     </div>
 
-    <div class="flex ml-40 mr-40">
+    <div class="flex gap-2">
       <SectionSubHeader
         icon={AppIcons.practices}
         subtitle="Development Practices & Testing"

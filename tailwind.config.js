@@ -3,7 +3,13 @@ export default {
   darkMode: "class",
   content: ["./src/**/*.{html,js,svelte,ts}"],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        theme: {
+          secondary: "#80CBC4",
+        },
+      },
+    },
   },
   plugins: [],
 };

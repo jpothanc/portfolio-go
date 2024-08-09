@@ -11,7 +11,7 @@
 
 <NavBar />
 <div
-  class="max-w-7xl mx-auto pt-20 px-6 bg-white  dark:bg-gradient-to-r from-gray-950 to-zinc-950 "
+  class="max-w-7xl mx-auto pt-20 px-6 bg-white dark:bg-gradient-to-r from-gray-950 to-zinc-950"
 >
   <HeroSection />
   <!-- <MotoSection /> -->
@@ -23,7 +23,7 @@
 
 <style lang="postcss">
   :global(html) {
-    background-color: rgb(255, 250, 250); /* Light mode background */
+    background-color: rgb(255, 255, 253); /* Light mode background */
     color: black;
   }
   :global(html.dark) {

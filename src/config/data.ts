@@ -28,7 +28,7 @@ export const NavItems = [
 
 export const Hero = {
   description:
-    "For more than two decades, I've been with a leading investment bank, specializing in the tech side of Equities Front Office Solutions. You'll often find me brainstorming, designing," +
+    "I'm Jessish, Equities Front Office Solutions Technical and Delivery Lead with 20+ years of experience in designing, implementing and optimizing technology solutions for an investment bank. My expertise lies in understanding the unique challenges of the equities front office environment and delivering innovative solutions that drive revenue generation, lead high-performing teams, optimise trading processes, reduce operational risk, and improve the overall client experience. For more than two decades, I've been with a leading investment bank, specializing in the tech side of Equities Front Office Solutions. You'll often find me brainstorming, designing," +
     "and fine-tuning tech solutions that are tailor-made to tackle the unique challenges in the equities front office scene. I'm all about crafting strategies that not only boost the bottom line but also bring out the best in teams. Whether it's streamlining trading processes, smoothing out the kinks, or amping up the client experience, I'm constantly on the lookout for ways to make tech work smarter in the equities world.",
   motivation:
     "I'm all about finding fresh, unique ways to approach things. Whether it's crafting sleek UIs, coding software, or building HTML pages and dynamic PowerPoint presentations, I'm drawn to the art of making things stand out. While I'm not an artist who can draw, I've always had an eye for aesthetics. I don't claim to be a design master, but I believe I have a good sense of it. I always wanted to learn one of the modern web languages like React or Angular. I could not, mainly due to packed schedules. I used to be all about Microsoft technologies, working on desktop and backend services using .NET Core. But lately, I've been diving into Java, Spring Boot, Python React and Svelte, and it's been pretty amazing, I have to say. I'm feeling like a true full-stack developer now, and I've got myself to thank for taking this leap.",
@@ -41,6 +41,7 @@ export const AppIcons = {
   achievements: "foundation:social-skillshare",
   personality: "mdi:person-star",
   git: "logos:git",
+  heroSection: "mdi:human-hello-variant",
   skillSection: "iconoir:developer",
   projectSection: "clarity:applications-solid-badged",
   articleSection: "heroicons:pencil-square-solid",

@@ -16,11 +16,8 @@
 >
   <div
     class="container flex justify-between px-2 items-center gap-1 mt-0
-     bg-white
-    dark:bg-transparent rounded-lg shadow-sm border-transparent
-  hover:brightness-110 transition:all duration-300 ease-in-out text-green-800
-  dark:text-blue-400
-  "
+     bg-theme-secondary p-1 hover:brightness-110 transition:all duration-300 ease-in-out
+    dark:bg-transparent shadow-sm border-transparent dark:text-blue-400"
   >
     <div class="flex pl-2 pt-2">
       <span class="">{title}</span>

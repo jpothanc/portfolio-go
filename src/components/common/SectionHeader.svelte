@@ -5,7 +5,9 @@
   export let gradientText = "";
 </script>
 
-<div class="flex flex-col justify-center items-center mx-auto p-2">
+<div
+  class="flex flex-col justify-center items-center mx-auto p-2  ml-40 mr-40"
+>
   <h1
     class="flex align-middle justify-center gap-3 text-3xl lg:text-3xl text-center tracking-wide w-full p-2
     dark:text-neutral-300"
@@ -16,7 +18,8 @@
     <span>
       {normalText}
       <span
-        class="bg-gradient-to-r from-green-700 to-red-500 dark:from-orange-500 dark:to-red-800 text-transparent bg-clip-text"
+        class="bg-gradient-to-r from-green-700 to-red-500 dark:from-orange-500
+         dark:to-red-800 text-transparent bg-clip-text"
       >
         {" "}
         {gradientText}
