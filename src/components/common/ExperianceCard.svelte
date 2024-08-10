@@ -10,14 +10,15 @@
 
 <div
   class="flex flex-col justify-center items-center mt-10
-   1border-zinc-800 rounded-lg shadow-md dark:shadow-slate-800 dark:shadow-sm
+   border-zinc-800 rounded-lg shadow-md dark:shadow-orange-900 dark:shadow-sm
+
    min-w-full
    "
 >
   <div
-    class="container flex justify-between px-2 items-center gap-1 mt-0
-     bg-theme-secondary p-1 hover:brightness-110 transition:all duration-300 ease-in-out
-    dark:bg-transparent shadow-sm border-transparent dark:text-blue-400"
+    class="container flex justify-between px-2 items-center gap-1 mt-0 text-white
+     bg-theme-secondary p-1 hover:brightness-110 transition:all duration-300 ease-in-out border-blue-400 border-2
+    dark:bg-transparent   border-transparent dark:text-blue-400"
   >
     <div class="flex pl-2 pt-2">
       <span class="">{title}</span>

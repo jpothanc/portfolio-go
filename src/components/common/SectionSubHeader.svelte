@@ -6,11 +6,11 @@
 
 <div
   class="flex flex-col justify-center items-center mt-10
-   border-zinc-800 rounded-lg shadow-md dark:shadow-slate-800 dark:shadow-sm"
+   border-zinc-800 rounded-lg shadow-md dark:shadow-orange-900 dark:shadow-sm "
 >
   <div
     class="container flex justify-start px-2 items-center gap-1 mt-0
-     bg-theme-secondary  hover:brightness-110 transition:all duration-300 ease-in-out
+    text-white border-blue-400 border-2 bg-theme-secondary hover:brightness-110 transition:all duration-300 ease-in-out
     dark:bg-transparent shadow-sm border-transparent dark:text-blue-400
   "
   >

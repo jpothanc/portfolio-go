@@ -6,13 +6,14 @@
 
 <div class="flex flex-wrap justify-center items-center">
   <div
-    class="flex flex-col pl-4 pr-4 p-1 dark:bg-tramsparent border border-neutral-800 rounded-xl h-72 w-60
-     text-md hover:border-green-900
+    class="flex flex-col pl-4 pr-4 p-1 dark:bg-tramsparent border  border-neutral-800 rounded-xl h-72 w-60
+     text-md hover:border-black shadow-slate-400 shadow-md dark:shadow-orange-900 dark:shadow-sm
         dark:hover:border-orange-500 dark:bg-transparent hover:scale-105 transition:all duration-300 ease-in-out
      dark:text-neutral-400 text-tracking-wider"
   >
     <div
-      class="flex justify-between p-2 bg-theme-secondary text-lg mt-2 rounded-lg dark:text-blue-400 dark:bg-transparent "
+      class="flex justify-between p-2 text-white border-blue-400 border-2 dark:border-transparent
+       bg-theme-secondary text-md mt-2 rounded-lg dark:text-blue-400 dark:bg-transparent"
     >
       <span>{project.name}</span>
       <div class="flex gap-2">
@@ -35,8 +36,7 @@
     </div>
     <hr class="m-1 border-t-2 dark:border-gray-800" />
 
-    <span
-      class="flex-1 text-xs mt-2  p-2 rounded-lg dark:bg-transparent"
+    <span class="flex-1 text-xs mt-2 p-2 rounded-lg dark:bg-transparent"
       >{project.description}</span
     >
     <span

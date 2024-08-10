@@ -12,15 +12,13 @@
 </script>
 
 <div
-  class="flex gap-2 items-center p- pl-3 pr-3 rounded-xl
-bg-slate-0 border-transparent 
-
-hover:border-orange-500 transition:all duration-300 ease-in-out
-font-semibold text-neutral-700
+  class="flex gap-2 items-center p-1 pl-3 pr-3 rounded-xl bg-slate-0
+  font-semibold text-neutral-700 border-neutral-800 dark:shadow-slate-800 shadow-sm
+  dark:hover:border-orange-500 transition:all duration-300 ease-in-out
 
 
 dark:text-neutral-300 dark:bg-neutral-900 dark:font-normal"
-  style="width: max-content;height=max-content background-color:{bgcolor};"
+  style="width: max-content;height=max-content background-color:{bgcolor} "
 >
   {#if visible}
     <div transition:fade={{ duration: 1000 }} class="">

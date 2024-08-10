@@ -8,17 +8,19 @@
 
 <div class="flex flex-wrap justify-center items-center">
   <div
-    class="flex flex-col pl-4 pr-4 p-1 dark:bg-transparent border border-neutral-800 rounded-xl m-h-40 w-60
-    text-md dark:text-neutral-400 text-tracking-wider hover:scale-105 transition:all duration-300 ease-in-out
-    hover:border-green-900 dark:hover:border-orange-500"
+    class="flex flex-col pl-4 pr-4 p-1 dark:bg-transparent border border-neutral-800
+     shadow-slate-400 shadow-md dark:shadow-orange-900 dark:shadow-sm rounded-xl m-h-40 w-60 text-md dark:text-neutral-400 text-tracking-wider
+     hover:scale-105 transition:all duration-300 ease-in-out hover:border-black dark:hover:border-orange-500"
   >
     <div
-      class="flex justify-between p-2 text-sm mt-2 bg-theme-secondary rounded-lg dark:bg-transparent dark:text-blue-400"
+      class="flex gap-3 items-center border-blue-400 border-2 dark:border-transparent p-2 text-sm mt-2 text-white bg-theme-secondary rounded-lg dark:bg-transparent dark:text-blue-400"
     >
       <Icon icon="ooui:articles-ltr" width="24" height="24" />
       <span>{title}</span>
     </div>
-    <hr class="border-t-2 mt-1 dark:forced-color-adjust-none dark:border-gray-800" />
+    <hr
+      class="border-t-2 mt-1 dark:forced-color-adjust-none dark:border-gray-800"
+    />
 
     <span class="flex-1 text-xs mt-5 dark:bg-transparent p-4 rounded-lg"
       >{description}</span
