@@ -12,7 +12,7 @@
 <NavBar />
 <div
   class="max-w-7xl mx-auto pt-20 px-6 bg-white
-  dark:bg-gradient-to-r from-gray-950 to-zinc-950 antialiased border"
+  dark:bg-gradient-to-r from-gray-950 to-zinc-950 antialiased"
 >
   <HeroSection />
   <!-- <MotoSection /> -->
