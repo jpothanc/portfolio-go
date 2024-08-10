@@ -31,7 +31,7 @@
       </SectionSubHeader>
     </div>
 
-    <div class="flex flex-wrap gap-2 justify-center border">
+    <div class="flex flex-wrap gap-2 justify-center">
       <SectionSubHeader
         icon={AppIcons.practices}
         subtitle="Development Practices & Testing"
