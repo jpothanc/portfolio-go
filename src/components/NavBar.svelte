@@ -60,7 +60,7 @@
 
     <!-- menu items -->
     <div class="flex ml-[10%] self-center border1 text-xs md:text-lg">
-      <ul class="flex justify-center border1">
+      <ul class="flex justify-center flex-wrap border1">
         {#each NavItems as item, index}
           <li class="p-2" data-index={index}>
             <a href={item.url} on:click={scrollTo}>{item.name}</a>
