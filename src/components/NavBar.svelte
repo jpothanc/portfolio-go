@@ -51,14 +51,15 @@
         />
       </div>
       <span
-        class="flex border1 text-lg dark:bg-white/80 rounded-md text-black font-semibold font- p-2"
+        class=" border1 text-lg dark:bg-white/80 rounded-md text-black font-semibold font- 
+        p-2 hidden md:flex "
       >
         Jessish Pothancheri
       </span>
     </div>
 
     <!-- menu items -->
-    <div class="flex ml-[10%] self-center border1">
+    <div class="flex ml-[10%] self-center border1 text-xs md:text-lg">
       <ul class="flex justify-center border1">
         {#each NavItems as item, index}
           <li class="p-2" data-index={index}>

@@ -6,7 +6,7 @@
 
 <div
   id="articles"
-  class="container flex flex-col justify-center mt-10 dark:text-neutral-500"
+  class="container flex flex-col justify-center mt-10 dark:text-neutral-500 "
 >
   <SectionHeader gradientText="articles" icon={AppIcons.articleSection}>
     <div class="flex flex-wrap justify-center items-center gap-2 mt-10">

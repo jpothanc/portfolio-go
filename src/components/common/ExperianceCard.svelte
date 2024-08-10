@@ -18,7 +18,7 @@
   <div
     class="container flex justify-between px-2 items-center gap-1 mt-0 text-white
      bg-theme-secondary p-1 hover:brightness-110 transition:all duration-300 ease-in-out border-blue-400 border-2
-    dark:bg-transparent   border-transparent dark:text-blue-400"
+    dark:bg-transparent border-transparent dark:text-blue-400 text-xs md:text-sm"
   >
     <div class="flex pl-2 pt-2">
       <span class="">{title}</span>
@@ -40,7 +40,7 @@
       </div>
     </div>
   </div>
-  <div class="flex self-start flex-wrap p-3">
+  <div class="flex self-start flex-wrap p-3 text-xs md:text-sm">
     <slot></slot>
   </div>
 </div>

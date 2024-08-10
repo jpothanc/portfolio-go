@@ -6,7 +6,7 @@
 </script>
 
 <div
-  class="flex flex-col justify-center items-center mx-auto p-2  ml-40 mr-40"
+  class="flex flex-col justify-center items-center mx-auto p-2  xl:ml-40 xl:mr-40 "
 >
   <h1
     class="flex align-middle justify-center gap-3 text-3xl lg:text-3xl text-center tracking-wide w-full p-2

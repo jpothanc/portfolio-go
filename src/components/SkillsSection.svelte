@@ -15,8 +15,6 @@
 
 <div id="skills" class="container flex justify-center mt-10">
   <SectionHeader gradientText="skills" icon={AppIcons.skillSection}>
-
-    
     <!-- <div class="">
       <video class="object-fill rounded-[50%] size-[200px]" autoplay loop muted>
         <source src={video} type="video/mp4" />
@@ -33,7 +31,7 @@
       </SectionSubHeader>
     </div>
 
-    <div class="flex gap-2">
+    <div class="flex flex-wrap gap-2">
       <SectionSubHeader
         icon={AppIcons.practices}
         subtitle="Development Practices & Testing"

@@ -11,7 +11,7 @@
   <div
     class="container flex justify-start px-2 items-center gap-1 mt-0
     text-white border-blue-400 border-2 bg-theme-secondary hover:brightness-110 transition:all duration-300 ease-in-out
-    dark:bg-transparent shadow-sm border-transparent dark:text-blue-400
+    dark:bg-transparent shadow-sm border-transparent dark:text-blue-400 text-xs md:text-sm
   "
   >
     <span class="">
