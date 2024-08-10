@@ -51,7 +51,7 @@
         />
       </div>
       <span
-        class="flex border1 text-lg dark:bg-orange-400 rounded-md text-black font-semibold font- p-2"
+        class="flex border1 text-lg dark:bg-white/80 rounded-md text-black font-semibold font- p-2"
       >
         Jessish Pothancheri
       </span>
