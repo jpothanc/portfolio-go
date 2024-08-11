@@ -55,6 +55,8 @@
         >
           <p>{Hero.motivation}</p>
         </span>
+        <!-- <span class="text-xs dark:hover:scale-110 transition-all ease-in-out duration-300 "> 
+          Dream, Code, Inspire and Innovate.</span> -->
       </div>
     </SectionHeader>
   </div>

@@ -553,7 +553,7 @@ export const Contacts = [
   },
   {
     name: "email",
-    url: "https://www.linkedin.com/in/jessish/",
+    url: "mailto:jessish.pothancheri@gmail.com",
     icon: "mdi:email-edit-outline",
   },
   {
@@ -563,11 +563,11 @@ export const Contacts = [
   },
   {
     name: "my main profile page",
-    url: "https://www.linkedin.com/in/jessish/",
+    url: "https://jpothanc.github.io/",
     icon: "carbon:user-profile-alt",
   },
   {
-    name: "This site was developed using Svelte and Tailwind CSS for learning purpose.© 2023 Jessish Pothancheri. All Rights Reserved. | Dream, Code, Inspire and Innovate.",
+    name: "This site was developed using Svelte and Tailwind CSS for learning purpose.© 2024 Jessish Pothancheri. All Rights Reserved. | Dream, Code, Inspire and Innovate.",
     url: "",
     icon: "material-symbols:chat-info-outline",
   },
