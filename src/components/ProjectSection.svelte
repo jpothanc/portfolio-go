@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
   import { AppIcons, PersonalProjects } from "../config/data";
   import Card from "./common/ProjectsCard.svelte";
   import SectionHeader from "./common/SectionHeader.svelte";

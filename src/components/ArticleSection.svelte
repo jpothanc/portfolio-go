@@ -1,6 +1,6 @@
 <script>
   import SectionHeader from "./common/SectionHeader.svelte";
-  import { AppIcons, Articles } from "./../config/data";
+  import { AppIcons, Articles } from "../config/data";
   import ArticleCard from "./common/ArticleCard.svelte";
 </script>
 

@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
   import Icon from "@iconify/svelte";
   import { AppIcons, Contacts } from "../config/data";
   import SectionHeader from "./common/SectionHeader.svelte";

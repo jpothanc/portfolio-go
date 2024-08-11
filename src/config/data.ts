@@ -346,6 +346,14 @@ export const Experiance = [
   },
 ];
 
+export type Article = {
+  name: string;
+  description: string;
+  url: string;
+  repo: string;
+  icon: string;
+};
+
 export const Articles = [
   {
     name: "React-Inversify",
@@ -414,6 +422,15 @@ export const Articles = [
     repo: "https://github.com/jpothanc/portfolio-go",
   },
 ];
+
+export type PersonalProject = {
+  name: string;
+  link: string;
+  description: string;
+  readme: string;
+  repo: string;
+  technology: string;
+};
 
 export const PersonalProjects = [
   {

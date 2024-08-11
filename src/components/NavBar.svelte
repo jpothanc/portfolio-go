@@ -1,5 +1,4 @@
 <script lang="ts">
-  import logo from "../assets/svelte.svg";
   import { onMount } from "svelte";
   import { AppIcons, NavItems } from "../config/data";
   import Icon from "@iconify/svelte";

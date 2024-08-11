@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
   import Icon from "@iconify/svelte";
   import video from "../assets/video.mp4";
   import {
@@ -49,12 +49,6 @@
           <SkillButton icon={skill.icon} text={skill.name} />
         {/each}
       </SectionSubHeader>
-      <!-- 
-    <SectionSubHeader icon={AppIcons.personality} subtitle="Personality">
-      {#each Personality as skill}
-          <SkillButton icon={skill.icon} text={skill.name} />
-      {/each}
-    </SectionSubHeader> -->
     </div>
   </SectionHeader>
 </div>

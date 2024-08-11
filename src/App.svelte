@@ -5,9 +5,8 @@
   import NavBar from "./components/NavBar.svelte";
   import ProjectsSection from "./components/ProjectSection.svelte";
   import SkillsSection from "./components/SkillsSection.svelte";
-  import MotoSection from "./components/MotoSection.svelte";
-  import Articles from "./components/Articles.svelte";
-  import Contact from "./components/Contact.svelte";
+  import ArticleSection from "./components/ArticleSection.svelte";
+  import ContactSection from "./components/ContactSection.svelte";
 </script>
 
 <NavBar />
@@ -16,12 +15,11 @@
   dark:bg-gradient-to-r from-gray-950 to-zinc-950 antialiased"
 >
   <HeroSection />
-  <!-- <MotoSection /> -->
   <SkillsSection />
   <ExperianceSection />
   <ProjectsSection />
-  <Articles />
-  <Contact />
+  <ArticleSection />
+  <ContactSection />
 </div>
 
 <style lang="postcss">

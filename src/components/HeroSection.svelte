@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
   import jpothanc from "../assets/jpothanc.png";
   import { fade } from "svelte/transition";
   import { onMount } from "svelte";

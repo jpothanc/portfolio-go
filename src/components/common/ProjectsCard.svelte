@@ -1,12 +1,13 @@
 <script lang="ts">
   import Icon from "@iconify/svelte";
+  import type { PersonalProject } from "../../config/data";
 
-  export let project;
+  export let project: PersonalProject;
 </script>
 
 <div class="flex flex-wrap justify-center items-center">
   <div
-    class="flex flex-col pl-4 pr-4 p-1 dark:bg-tramsparent border  border-neutral-800 rounded-xl h-72 w-60
+    class="flex flex-col pl-4 pr-4 p-1 dark:bg-tramsparent border border-neutral-800 rounded-xl h-72 w-60
      text-md hover:border-black shadow-slate-400 shadow-md dark:shadow-orange-900 dark:shadow-sm
         dark:hover:border-orange-500 dark:bg-transparent hover:scale-105 transition:all duration-300 ease-in-out
      dark:text-neutral-400 text-tracking-wider"

@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
   import SectionHeader from "./common/SectionHeader.svelte";
   import { AppIcons, Experiance } from "./../config/data";
   import ExperianceCard from "./common/ExperianceCard.svelte";

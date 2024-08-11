@@ -1,6 +1,8 @@
-<script>
+<script lang="ts">
   import Icon from "@iconify/svelte";
-  export let article;
+  import type { Article } from "../../config/data";
+
+  export let article: Article;
 </script>
 
 <div class="flex flex-wrap justify-center items-center">
@@ -13,7 +15,7 @@
       class="flex gap-3 items-center border-blue-400 border-2 dark:border-transparent p-2 text-sm mt-2 text-white bg-theme-secondary rounded-lg dark:bg-transparent dark:text-blue-400"
     >
       <Icon icon="ooui:articles-ltr" width="24" height="24" />
-      <span>{article.title}</span>
+      <span>{article.name}</span>
     </div>
     <hr
       class="border-t-2 mt-1 dark:forced-color-adjust-none dark:border-gray-800"
@@ -23,7 +25,7 @@
       >{article.description}</span
     >
     <div class="flex gap-2 justify-end px-2 pb-2 m-1">
-      {#if article.epo}
+      {#if article.repo}
         <span class="dark:text-green-600">
           <a href={article.repo} target="_blank" rel="noopener noreferrer">
             <Icon icon="fluent-mdl2:git-hub-logo" width="24" height="24" />
