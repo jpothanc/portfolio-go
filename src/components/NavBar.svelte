@@ -56,7 +56,7 @@
       <!-- name banner, hidden on small screen -->
       <span
         class="hidden text-lg dark:text-white rounded-md font-semibold
-        p-2 md:flex border border-black dark:border-orange-700/80"
+        p-2 md:flex border border-black dark:border-orange-700"
       >
         Jessish Pothancheri
       </span>
