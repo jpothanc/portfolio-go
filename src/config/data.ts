@@ -46,6 +46,8 @@ export const AppIcons = {
   projectSection: "clarity:applications-solid-badged",
   articleSection: "heroicons:pencil-square-solid",
   experianceSection: "mdi:partnership",
+  theme_mode: "f7:moon-stars",
+  mobile_menu: "carbon:menu",
 };
 
 export const DevelopmentPractices = [

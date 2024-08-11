@@ -1,7 +1,7 @@
 <script lang="ts">
   import logo from "../assets/svelte.svg";
   import { onMount } from "svelte";
-  import { NavItems } from "../config/data";
+  import { AppIcons, NavItems } from "../config/data";
   import Icon from "@iconify/svelte";
   import jessish from "../assets/Jessish.jpg";
 
@@ -26,41 +26,45 @@
     document.documentElement.classList.add("dark");
   });
 
-  function toggleDarkMode() {
+  const toggleDarkMode = () => {
     darkMode = !darkMode;
     if (darkMode) {
       document.documentElement.classList.add("dark");
     } else {
       document.documentElement.classList.remove("dark");
     }
-  }
+  };
+
+  let mobileMenu = false;
+  const toggleMenu = () => (mobileMenu = !mobileMenu);
 </script>
 
 <nav
-  class="sticky top-0 z-50 backdrop-blur-lg border-b border-theme-secondary dark:border-orange-700/80
-   bg-transparent max-w-7xl mx-auto h-24 flex items-center"
+  class="sticky top-0 z-50 backdrop-blur-lg border-b border-theme-secondary
+   dark:border-orange-700/80 bg-transparent max-w-7xl mx-auto h-24 flex items-center"
 >
-  <div class="container flex gap-1 mx-auto sm:text-sm border1">
+  <div class="container flex gap-1 mx-auto sm:text-sm">
     <!-- logo -->
     <div class="flex gap-1 items-center">
-      <div class="flex items-center flex-shrink-0 px-5 border1">
+      <div class="flex items-center flex-shrink-0 px-5">
         <img
           class="flex p-1 h-20 w-20 rounded-[50%] hover:scale-[200%] transition-all duration-300 ease-in-out"
           src={jessish}
           alt="logo"
         />
       </div>
+      <!-- name banner, hidden on small screen -->
       <span
-        class=" border1 text-lg dark:bg-white/80 rounded-md text-black font-semibold font- 
-        p-2 hidden md:flex "
+        class="hidden text-lg dark:text-white rounded-md font-semibold
+        p-2 md:flex border border-black dark:border-orange-700/80"
       >
         Jessish Pothancheri
       </span>
     </div>
 
-    <!-- menu items -->
-    <div class="flex ml-[10%] self-center border1 text-xs md:text-lg">
-      <ul class="flex justify-center flex-wrap border1">
+    <!-- menu items for large screen-->
+    <div class="flex ml-[10%] self-center items-center pr-1 text-xs md:text-lg">
+      <ul class="md:flex justify-center flex-wrap hidden">
         {#each NavItems as item, index}
           <li class="p-2" data-index={index}>
             <a href={item.url} on:click={scrollTo}>{item.name}</a>
@@ -68,12 +72,41 @@
         {/each}
       </ul>
     </div>
+
     <!-- Dark mode toggle button -->
-    <div class="flex items-center self-center p-1 ml-auto mr-5 border1">
+    <div class="flex self-center p-2 ml-auto">
       <button on:click={toggleDarkMode}>
-        <Icon icon="f7:moon-stars" width="24" height="24" />
-        <!-- <Moon size="20" class={!darkMode ? "text-black" : "text-white"} /> -->
+        <Icon icon={AppIcons.theme_mode} width="24" height="24" />
       </button>
     </div>
+
+    <!-- mobile menu button, only visible on small screen -->
+    <div class="md:hidden flex self-center p-2 pr-4">
+      <button on:click={toggleMenu}>
+        {#if mobileMenu}
+          X
+        {:else}
+          <Icon icon={AppIcons.mobile_menu} width="24" height="24" />
+        {/if}
+      </button>
+    </div>
+
+    <!-- mobile menu only visible on small screens -->
+    {#if mobileMenu}
+      <div
+        class="md:hidden fixed mt-20 z-20 bg-white/80 dark:bg-gray-950/80
+         font-semibold w-full flex justify-center text-sm
+         dark:border-orange-700/80 dark:border-b"
+      >
+        <!-- menu items -->
+        <ul class="">
+          {#each NavItems as item, index}
+            <li class="p-2" data-index={index}>
+              <a href={item.url} on:click={scrollTo}>{item.name}</a>
+            </li>
+          {/each}
+        </ul>
+      </div>
+    {/if}
   </div>
 </nav>
