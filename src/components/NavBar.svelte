@@ -4,6 +4,7 @@
   import { AppIcons, NavItems } from "../config/data";
   import Icon from "@iconify/svelte";
   import jessish from "../assets/Jessish.jpg";
+  import ToolTip from "./common/ToolTip.svelte";
 
   const scrollTo = (event: any) => {
     const target = document.querySelector(event.currentTarget.hash);
@@ -56,7 +57,7 @@
       <!-- name banner, hidden on small screen -->
       <span
         class="hidden text-lg dark:text-white rounded-md font-semibold
-        p-2 md:flex border border-black dark:border-orange-700"
+        p-1 md:flex"
       >
         Jessish Pothancheri
       </span>
@@ -74,11 +75,13 @@
     </div>
 
     <!-- Dark mode toggle button -->
-    <div class="flex self-center p-2 ml-auto">
-      <button on:click={toggleDarkMode}>
-        <Icon icon={AppIcons.theme_mode} width="24" height="24" />
-      </button>
-    </div>
+    <ToolTip text="toggle theme">
+      <div class="flex self-center p-2 ml-auto">
+        <button on:click={toggleDarkMode}>
+          <Icon icon={AppIcons.themeMode} width="24" height="24" />
+        </button>
+      </div>
+    </ToolTip>
 
     <!-- mobile menu button, only visible on small screen -->
     <div class="md:hidden flex self-center p-2 pr-4">
@@ -86,7 +89,7 @@
         {#if mobileMenu}
           X
         {:else}
-          <Icon icon={AppIcons.mobile_menu} width="24" height="24" />
+          <Icon icon={AppIcons.mobileMenu} width="24" height="24" />
         {/if}
       </button>
     </div>

@@ -7,6 +7,7 @@
   import SkillsSection from "./components/SkillsSection.svelte";
   import MotoSection from "./components/MotoSection.svelte";
   import Articles from "./components/Articles.svelte";
+  import Contact from "./components/Contact.svelte";
 </script>
 
 <NavBar />
@@ -20,6 +21,7 @@
   <ExperianceSection />
   <ProjectsSection />
   <Articles />
+  <Contact />
 </div>
 
 <style lang="postcss">

@@ -1,9 +1,6 @@
 <script>
   import Icon from "@iconify/svelte";
-  export let title = "";
-  export let url = "";
-  export let description = "";
-  export let repo = "";
+  export let article;
 </script>
 
 <div class="flex flex-wrap justify-center items-center">
@@ -16,26 +13,30 @@
       class="flex gap-3 items-center border-blue-400 border-2 dark:border-transparent p-2 text-sm mt-2 text-white bg-theme-secondary rounded-lg dark:bg-transparent dark:text-blue-400"
     >
       <Icon icon="ooui:articles-ltr" width="24" height="24" />
-      <span>{title}</span>
+      <span>{article.title}</span>
     </div>
     <hr
       class="border-t-2 mt-1 dark:forced-color-adjust-none dark:border-gray-800"
     />
 
     <span class="flex-1 text-xs mt-5 dark:bg-transparent p-4 rounded-lg"
-      >{description}</span
+      >{article.description}</span
     >
     <div class="flex gap-2 justify-end px-2 pb-2 m-1">
-      {#if repo}
+      {#if article.epo}
         <span class="dark:text-green-600">
-          <a href={repo} target="_blank" rel="noopener noreferrer">
+          <a href={article.repo} target="_blank" rel="noopener noreferrer">
             <Icon icon="fluent-mdl2:git-hub-logo" width="24" height="24" />
           </a>
         </span>
       {/if}
       <span class="dark:text-yellow-600">
-        <a href={url} target="_blank" rel="noopener noreferrer">
-          <Icon icon="mingcute:medium-line" width="24" height="24" />
+        <a href={article.url} target="_blank" rel="noopener noreferrer">
+          {#if article.icon}
+            <Icon icon={article.icon} width="24" height="24" />
+          {:else}
+            <Icon icon="mingcute:medium-line" width="24" height="24" />
+          {/if}
         </a>
       </span>
     </div>

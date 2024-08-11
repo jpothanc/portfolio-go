@@ -14,8 +14,9 @@
 <div
   class="flex gap-2 items-center p-1 pl-1 pr-1  md:pl-3 md:pr-3 rounded-xl bg-slate-0
   font-semibold text-neutral-700 border-neutral-800 dark:shadow-slate-800 shadow-sm
-  
-  dark:hover:border-orange-500 transition:all duration-300 ease-in-out 
+  hover:shadow-slate-400 hover:border-black hover:scale-105 hover:shadow-md
+  transition:all duration-300 ease-in-out
+ 
   text-xs md:text-sm
   
 

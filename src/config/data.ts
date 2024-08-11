@@ -22,7 +22,7 @@ export const NavItems = [
   },
   {
     name: "Contact",
-    url: "#",
+    url: "#contact",
   },
 ];
 
@@ -46,8 +46,9 @@ export const AppIcons = {
   projectSection: "clarity:applications-solid-badged",
   articleSection: "heroicons:pencil-square-solid",
   experianceSection: "mdi:partnership",
-  theme_mode: "f7:moon-stars",
-  mobile_menu: "carbon:menu",
+  contactSection: "fluent-mdl2:contact-link",
+  themeMode: "f7:moon-stars",
+  mobileMenu: "carbon:menu",
 };
 
 export const DevelopmentPractices = [
@@ -140,73 +141,59 @@ export const Skills = [
   {
     icon: "logos:c-sharp",
     name: "C#",
-    experience: "2+ years",
   },
   {
     icon: "skill-icons:dotnet",
     name: ".NET 6.0",
-    experience: "2+ years",
   },
   {
     icon: "devicon:java",
     name: "Java",
-    experience: "2+ years",
   },
   {
     icon: "logos:spring-icon",
     name: "SpringBoot",
-    experience: "2+ years",
   },
 
   {
     icon: "skill-icons:javascript",
     name: "JavaScript",
-    experience: "2+ years",
   },
   {
     icon: "vscode-icons:file-type-python",
     name: "Python",
-    experience: "2+ years",
   },
   {
     icon: "skill-icons:react-light",
     name: "React",
-    experience: "2+ years",
   },
   {
     icon: "vscode-icons:file-type-svelte",
     name: "Svelte",
-    experience: "2+ years",
   },
   {
     icon: "skill-icons:reactivex-light",
     name: "Reactive Programming",
-    experience: "2+ years",
   },
   {
     icon: "devicon:tailwindcss",
     name: "Tailwind CSS",
-    experience: "2+ years",
   },
   {
     icon: "vscode-icons:file-type-graphql",
     name: "GraphQL",
-    experience: "2+ years",
   },
   {
     icon: "logos:cucumber",
     name: "Cucumber",
-    experience: "2+ years",
   },
   {
     icon: "devicon:oracle",
     name: "Oracle",
-    experience: "2+ years",
   },
   {
     icon: "devicon:postgresql",
     name: "PostgreSQL",
-    experience: "2+ years",
   },
   {
     icon: "bi:database-add",
@@ -216,12 +203,10 @@ export const Skills = [
   {
     icon: "devicon:mongodb",
     name: "MongoDB",
-    experience: "2+ years",
   },
   {
     icon: "devicon:redis",
     name: "Redis",
-    experience: "2+ years",
   },
 ];
 export const Personality = [
@@ -372,40 +357,44 @@ export const Articles = [
     name: "Reactive React",
     description: "How to use Reactive Extensions in React.",
     url: "https://medium.com/@kaljessy/react-state-management-using-rxjs-58a4d523d611",
-    repo: "",
+    repo: "https://github.com/jpothanc/react-rxjs?source=post_page-----58a4d523d611--------------------------------",
   },
   {
     name: "K6 Load Testing",
     description: "Performance Testing using Grafana k6",
     url: "https://dev.to/jpothanc/performance-testing-using-grafana-k6-3pg9",
     repo: "",
+    icon: "material-symbols:logo-dev-outline",
   },
   {
     name: "React lib to npm",
     description: "Publish React library to npm.",
     url: "https://medium.com/@kaljessy/publish-your-react-library-to-npm-using-vite-136dc81e368d",
-    repo: "",
+    repo: "https://github.com/jpothanc/react-jp-ui?source=post_page-----136dc81e368d--------------------------------",
   },
   {
     name: "Python Libraries",
     description: "Creating and Uploading Python Libraries",
     url: "https://medium.com/@kaljessy/building-and-sharing-a-guide-to-creating-and-uploading-python-libraries-56998a001a2c",
-    repo: "",
+    repo: "https://github.com/jpothanc/omnijp",
   },
   {
     name: "Python Microservice",
     description: "Discovering Python Through Microservice Development",
     url: "https://medium.com/@kaljessy/discovering-python-through-microservice-development-cda7b8f97848",
+    repo: "https://github.com/jpothanc/equity-store/tree/main",
   },
   {
     name: "Tauri Desktop Apps",
     description: "Build Web Desktop Apps using Tauri.",
     url: "https://medium.com/@kaljessy/build-web-desktop-apps-using-tauri-6fe12586016a",
+    repo: "https://github.com/jpothanc/react-tauri-desktop-app",
   },
   {
     name: "Electron Desktop Apps",
     description: "Build Web Desktop Apps using Electron.",
     url: "https://medium.com/@kaljessy/build-web-desktop-apps-using-electron-a4c6e226290c",
+    repo: "https://github.com/jpothanc/react-electron-desktop-app",
   },
   {
     name: "Chating with OpenAI",
@@ -416,11 +405,13 @@ export const Articles = [
     name: "AI Assitant using RAG",
     description: "Personal AI Assitant using RAG and ChromaDB.",
     url: "https://medium.com/@kaljessy/personal-ai-assitant-using-rag-and-chromadb-6fd5c259da41",
+    repo: "https://github.com/jpothanc/my-ai-assistant",
   },
   {
     name: "Svelt, Felt Better?",
     description: "A attempt to promote Svelte, a modern web framework.",
     url: "https://medium.com/@kaljessy/svelt-felt-better-ff7ce0f81977",
+    repo: "https://github.com/jpothanc/portfolio-go",
   },
 ];
 
@@ -534,5 +525,33 @@ export const PersonalProjects = [
     readme: "https://api.github.com/repos/jpothanc/omnijp/readme",
     repo: "https://github.com/jpothanc/omnijp/tree/main",
     technology: "https://skillicons.dev/icons?i=python,pycharm&perline=10",
+  },
+];
+
+export const Contacts = [
+  {
+    name: "linkedIn",
+    url: "https://www.linkedin.com/in/jessish-pothancheri-5985576/",
+    icon: "brandico:linkedin-rect",
+  },
+  {
+    name: "email",
+    url: "https://www.linkedin.com/in/jessish/",
+    icon: "mdi:email-edit-outline",
+  },
+  {
+    name: "github",
+    url: "https://github.com/jpothanc",
+    icon: "carbon:logo-github",
+  },
+  {
+    name: "my main profile page",
+    url: "https://www.linkedin.com/in/jessish/",
+    icon: "carbon:user-profile-alt",
+  },
+  {
+    name: "This site was developed using Svelte and Tailwind CSS for learning purpose.© 2023 Jessish Pothancheri. All Rights Reserved. | Dream, Code, Inspire and Innovate.",
+    url: "",
+    icon: "material-symbols:chat-info-outline",
   },
 ];
