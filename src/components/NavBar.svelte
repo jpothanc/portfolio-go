@@ -54,16 +54,18 @@
         />
       </div>
       <!-- name banner, hidden on small screen -->
-      <span
+      <!-- <span
         class="hidden text-lg dark:text-white rounded-md font-semibold
         p-1 md:flex"
       >
         Jessish Pothancheri
-      </span>
+      </span> -->
     </div>
 
     <!-- menu items for large screen-->
-    <div class="flex ml-[10%] self-center items-center pr-1 text-xs md:text-lg">
+    <div
+      class="flex w-[80%] ml-[10%] justify-center items-center pr-1 text-xs md:text-lg"
+    >
       <ul class="md:flex justify-center flex-wrap hidden">
         {#each NavItems as item, index}
           <li class="p-2" data-index={index}>
@@ -72,25 +74,26 @@
         {/each}
       </ul>
     </div>
+    <div class="flex w-[10%] justify-end">
+      <!-- Dark mode toggle button -->
+      <ToolTip text="toggle theme">
+        <div class="flex self-center p-2 ml-auto">
+          <button on:click={toggleDarkMode}>
+            <Icon icon={AppIcons.themeMode} width="24" height="24" />
+          </button>
+        </div>
+      </ToolTip>
 
-    <!-- Dark mode toggle button -->
-    <ToolTip text="toggle theme">
-      <div class="flex self-center p-2 ml-auto">
-        <button on:click={toggleDarkMode}>
-          <Icon icon={AppIcons.themeMode} width="24" height="24" />
+      <!-- mobile menu button, only visible on small screen -->
+      <div class="md:hidden flex self-center p-2 pr-4">
+        <button on:click={toggleMenu}>
+          {#if mobileMenu}
+            X
+          {:else}
+            <Icon icon={AppIcons.mobileMenu} width="24" height="24" />
+          {/if}
         </button>
       </div>
-    </ToolTip>
-
-    <!-- mobile menu button, only visible on small screen -->
-    <div class="md:hidden flex self-center p-2 pr-4">
-      <button on:click={toggleMenu}>
-        {#if mobileMenu}
-          X
-        {:else}
-          <Icon icon={AppIcons.mobileMenu} width="24" height="24" />
-        {/if}
-      </button>
     </div>
 
     <!-- mobile menu only visible on small screens -->
